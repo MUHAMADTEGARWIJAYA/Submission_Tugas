@@ -8,8 +8,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df_day = pd.read_csv("day.csv")  # Pastikan file ini ada
-df_hour = pd.read_csv("hour.csv")  # Opsional untuk analisis per jam
+df_day = pd.read_csv("day.csv")  
+df_hour = pd.read_csv("hour.csv")  
 
 st.title("Dashboard Analisis Bike Sharing")
 
